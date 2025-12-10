@@ -154,7 +154,7 @@ header {
   color: rgb(0, 0, 0);
   background-color: rgb(247, 247, 247);
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
 }
 header a {
@@ -179,4 +179,24 @@ header h1 {
 }
 header h1:hover {
   color: rgb(246, 0, 0);
+}
+
+.opis {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.opis h3 {
+  font-family: "Tiny5", sans-serif;
+  font-size: 10vh;
+}
+.opis h4 {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 4vh;
+  text-align: center;
+  line-height: 1.4;
 }/*# sourceMappingURL=regulamin.css.map */
