@@ -1,2 +1,6 @@
 @use "../abstract" as *;
 @use "../components" as *;
+
+.dc {
+  color: $color_dicord;
+}

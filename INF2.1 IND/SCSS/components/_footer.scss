@@ -1,2 +1,12 @@
 // Komponenty do importu przez _index.scss
 @use "../abstract/variables" as *;
+footer {
+  background-color: $color2;
+  text-align: center;
+  padding: 10px 0;
+  font-family: $font3;
+  color: white;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
